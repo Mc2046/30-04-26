@@ -1,0 +1,14 @@
+ANÀLISI DE L'EQUILIBRI (QUESTION 1)
+
+Dades obtingudes:
+* Nombre de molècules (Ocupació): Segons les dades obtingudes, el sistema triga uns 100 ps a estabilitzar-se. Un cop superat aquest temps, el nanotub manté una ocupació mitjana d'unes 20 molècules d'aigua, amb fluctuacions naturals d'entre 19 i 22.
+
+* Permeacions: S'han comptabilitzat dues direccions de moviment durant la simulació: unes 32 permeacions en el sentit z > 0 i unes 12 permeacions en el sentit z < 0.
+
+* Flux d'aigua (J): El flux acumulat al final de la simulació de 1000 ps (1 ns) se situa al voltant de les 22 molècules netes. El flux es pot expressar com: J ≈ 22 molècules/ns.
+
+Interpretació:
+- Sistema equilibrat: El fet que l'ocupació d'aigua dins el nanotub es mantingui constant al voltant de les 20 molècules és la prova principal que el sistema està equilibrat. El nanotub no està buit, el que demostra que l'aigua pot entrar-hi i moure's lliurement per l'interior de l'estructura.
+- Flux no zero: L'asimetria es deu a la curta durada de la simulació (1 ns), que genera una estadística insuficient. En simulacions més llargues, les fluctuacions s'anivellaran i el flux net d'equilibri tendirà a zero en principi.
+
+Marcel Jové López (1671530)
